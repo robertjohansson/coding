@@ -1,0 +1,4 @@
+CC = g++
+
+file.exe : helloworld.cc
+	$(CC) helloworld.cc -o file.exe
